@@ -75,4 +75,4 @@ async function handler(req: Request): Promise<Response> {
 console.log("此地址只用于帮助astrbot更快的连接github"); // Deno Deploy 会自动使用 $PORT
 // 显式判断环境：如果是 Deno Deploy 环境，不传端口；否则使用 8000
 // 监听端口 8000 (本地) 或 Deno Deploy 指定的端口
-serve(handler);
+serve(handler)
